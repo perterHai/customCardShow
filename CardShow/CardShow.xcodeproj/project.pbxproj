@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1AD3CC1DD4912A00E3E5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD3CB1DD4912A00E3E5BF /* main.m */; };
+		AC1AD3CF1DD4912A00E3E5BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD3CE1DD4912A00E3E5BF /* AppDelegate.m */; };
+		AC1AD3D21DD4912A00E3E5BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD3D11DD4912A00E3E5BF /* ViewController.m */; };
+		AC1AD3D51DD4912A00E3E5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1AD3D31DD4912A00E3E5BF /* Main.storyboard */; };
+		AC1AD3D71DD4912A00E3E5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1AD3D61DD4912A00E3E5BF /* Assets.xcassets */; };
+		AC1AD3DA1DD4912A00E3E5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1AD3D81DD4912A00E3E5BF /* LaunchScreen.storyboard */; };
+		AC1AD3E51DD4912A00E3E5BF /* CardShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD3E41DD4912A00E3E5BF /* CardShowTests.m */; };
+		AC1AD3F01DD4912A00E3E5BF /* CardShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD3EF1DD4912A00E3E5BF /* CardShowUITests.m */; };
+		AC1AD4031DD491D800E3E5BF /* EFTipCardAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD4021DD491D800E3E5BF /* EFTipCardAlert.m */; };
+		AC1AD4091DD493B800E3E5BF /* EFTipCardAlertCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD4081DD493B800E3E5BF /* EFTipCardAlertCollectionViewCell.m */; };
+		AC1AD40C1DD493D500E3E5BF /* EFTipCardAlertCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD40B1DD493D500E3E5BF /* EFTipCardAlertCollectionViewModel.m */; };
+		AC6174811DD49AD200B51242 /* EFCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6174801DD49AD200B51242 /* EFCollectionLayout.m */; };
+		AC6174871DD5BCE600B51242 /* EFBtnTipCardAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6174861DD5BCE600B51242 /* EFBtnTipCardAlert.m */; };
+		AC61748A1DD5C1A600B51242 /* EFPageCardAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6174891DD5C1A600B51242 /* EFPageCardAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1AD3E11DD4912A00E3E5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1AD3BF1DD4912A00E3E5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1AD3C61DD4912A00E3E5BF;
+			remoteInfo = CardShow;
+		};
+		AC1AD3EC1DD4912A00E3E5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1AD3BF1DD4912A00E3E5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1AD3C61DD4912A00E3E5BF;
+			remoteInfo = CardShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC1AD3C71DD4912A00E3E5BF /* CardShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1AD3CB1DD4912A00E3E5BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC1AD3CD1DD4912A00E3E5BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC1AD3CE1DD4912A00E3E5BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC1AD3D01DD4912A00E3E5BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC1AD3D11DD4912A00E3E5BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC1AD3D41DD4912A00E3E5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC1AD3D61DD4912A00E3E5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC1AD3D91DD4912A00E3E5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1AD3DB1DD4912A00E3E5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1AD3E01DD4912A00E3E5BF /* CardShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1AD3E41DD4912A00E3E5BF /* CardShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardShowTests.m; sourceTree = "<group>"; };
+		AC1AD3E61DD4912A00E3E5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1AD3EB1DD4912A00E3E5BF /* CardShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1AD3EF1DD4912A00E3E5BF /* CardShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardShowUITests.m; sourceTree = "<group>"; };
+		AC1AD3F11DD4912A00E3E5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1AD4011DD491D800E3E5BF /* EFTipCardAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTipCardAlert.h; sourceTree = "<group>"; };
+		AC1AD4021DD491D800E3E5BF /* EFTipCardAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTipCardAlert.m; sourceTree = "<group>"; };
+		AC1AD4071DD493B800E3E5BF /* EFTipCardAlertCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTipCardAlertCollectionViewCell.h; sourceTree = "<group>"; };
+		AC1AD4081DD493B800E3E5BF /* EFTipCardAlertCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTipCardAlertCollectionViewCell.m; sourceTree = "<group>"; };
+		AC1AD40A1DD493D500E3E5BF /* EFTipCardAlertCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTipCardAlertCollectionViewModel.h; sourceTree = "<group>"; };
+		AC1AD40B1DD493D500E3E5BF /* EFTipCardAlertCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTipCardAlertCollectionViewModel.m; sourceTree = "<group>"; };
+		AC61747F1DD49AD200B51242 /* EFCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCollectionLayout.h; sourceTree = "<group>"; };
+		AC6174801DD49AD200B51242 /* EFCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFCollectionLayout.m; sourceTree = "<group>"; };
+		AC6174851DD5BCE600B51242 /* EFBtnTipCardAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFBtnTipCardAlert.h; sourceTree = "<group>"; };
+		AC6174861DD5BCE600B51242 /* EFBtnTipCardAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFBtnTipCardAlert.m; sourceTree = "<group>"; };
+		AC6174881DD5C1A600B51242 /* EFPageCardAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFPageCardAlert.h; sourceTree = "<group>"; };
+		AC6174891DD5C1A600B51242 /* EFPageCardAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFPageCardAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1AD3C41DD4912A00E3E5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1AD3DD1DD4912A00E3E5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1AD3E81DD4912A00E3E5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1AD3BE1DD4912A00E3E5BF = {
+			isa = PBXGroup;
+			children = (
+				AC1AD3C91DD4912A00E3E5BF /* CardShow */,
+				AC1AD3E31DD4912A00E3E5BF /* CardShowTests */,
+				AC1AD3EE1DD4912A00E3E5BF /* CardShowUITests */,
+				AC1AD3C81DD4912A00E3E5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1AD3C81DD4912A00E3E5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1AD3C71DD4912A00E3E5BF /* CardShow.app */,
+				AC1AD3E01DD4912A00E3E5BF /* CardShowTests.xctest */,
+				AC1AD3EB1DD4912A00E3E5BF /* CardShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1AD3C91DD4912A00E3E5BF /* CardShow */ = {
+			isa = PBXGroup;
+			children = (
+				AC1AD3FD1DD4917900E3E5BF /* CardAlert */,
+				AC1AD3CD1DD4912A00E3E5BF /* AppDelegate.h */,
+				AC1AD3CE1DD4912A00E3E5BF /* AppDelegate.m */,
+				AC1AD3D01DD4912A00E3E5BF /* ViewController.h */,
+				AC1AD3D11DD4912A00E3E5BF /* ViewController.m */,
+				AC1AD3D31DD4912A00E3E5BF /* Main.storyboard */,
+				AC1AD3D61DD4912A00E3E5BF /* Assets.xcassets */,
+				AC1AD3D81DD4912A00E3E5BF /* LaunchScreen.storyboard */,
+				AC1AD3DB1DD4912A00E3E5BF /* Info.plist */,
+				AC1AD3CA1DD4912A00E3E5BF /* Supporting Files */,
+			);
+			path = CardShow;
+			sourceTree = "<group>";
+		};
+		AC1AD3CA1DD4912A00E3E5BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC1AD3CB1DD4912A00E3E5BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC1AD3E31DD4912A00E3E5BF /* CardShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1AD3E41DD4912A00E3E5BF /* CardShowTests.m */,
+				AC1AD3E61DD4912A00E3E5BF /* Info.plist */,
+			);
+			path = CardShowTests;
+			sourceTree = "<group>";
+		};
+		AC1AD3EE1DD4912A00E3E5BF /* CardShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1AD3EF1DD4912A00E3E5BF /* CardShowUITests.m */,
+				AC1AD3F11DD4912A00E3E5BF /* Info.plist */,
+			);
+			path = CardShowUITests;
+			sourceTree = "<group>";
+		};
+		AC1AD3FD1DD4917900E3E5BF /* CardAlert */ = {
+			isa = PBXGroup;
+			children = (
+				AC1AD4011DD491D800E3E5BF /* EFTipCardAlert.h */,
+				AC1AD4021DD491D800E3E5BF /* EFTipCardAlert.m */,
+				AC1AD4071DD493B800E3E5BF /* EFTipCardAlertCollectionViewCell.h */,
+				AC1AD4081DD493B800E3E5BF /* EFTipCardAlertCollectionViewCell.m */,
+				AC1AD40A1DD493D500E3E5BF /* EFTipCardAlertCollectionViewModel.h */,
+				AC1AD40B1DD493D500E3E5BF /* EFTipCardAlertCollectionViewModel.m */,
+				AC61747F1DD49AD200B51242 /* EFCollectionLayout.h */,
+				AC6174801DD49AD200B51242 /* EFCollectionLayout.m */,
+				AC6174851DD5BCE600B51242 /* EFBtnTipCardAlert.h */,
+				AC6174861DD5BCE600B51242 /* EFBtnTipCardAlert.m */,
+				AC6174881DD5C1A600B51242 /* EFPageCardAlert.h */,
+				AC6174891DD5C1A600B51242 /* EFPageCardAlert.m */,
+			);
+			path = CardAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1AD3C61DD4912A00E3E5BF /* CardShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1AD3F41DD4912A00E3E5BF /* Build configuration list for PBXNativeTarget "CardShow" */;
+			buildPhases = (
+				AC1AD3C31DD4912A00E3E5BF /* Sources */,
+				AC1AD3C41DD4912A00E3E5BF /* Frameworks */,
+				AC1AD3C51DD4912A00E3E5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardShow;
+			productName = CardShow;
+			productReference = AC1AD3C71DD4912A00E3E5BF /* CardShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC1AD3DF1DD4912A00E3E5BF /* CardShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1AD3F71DD4912A00E3E5BF /* Build configuration list for PBXNativeTarget "CardShowTests" */;
+			buildPhases = (
+				AC1AD3DC1DD4912A00E3E5BF /* Sources */,
+				AC1AD3DD1DD4912A00E3E5BF /* Frameworks */,
+				AC1AD3DE1DD4912A00E3E5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1AD3E21DD4912A00E3E5BF /* PBXTargetDependency */,
+			);
+			name = CardShowTests;
+			productName = CardShowTests;
+			productReference = AC1AD3E01DD4912A00E3E5BF /* CardShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC1AD3EA1DD4912A00E3E5BF /* CardShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1AD3FA1DD4912A00E3E5BF /* Build configuration list for PBXNativeTarget "CardShowUITests" */;
+			buildPhases = (
+				AC1AD3E71DD4912A00E3E5BF /* Sources */,
+				AC1AD3E81DD4912A00E3E5BF /* Frameworks */,
+				AC1AD3E91DD4912A00E3E5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1AD3ED1DD4912A00E3E5BF /* PBXTargetDependency */,
+			);
+			name = CardShowUITests;
+			productName = CardShowUITests;
+			productReference = AC1AD3EB1DD4912A00E3E5BF /* CardShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1AD3BF1DD4912A00E3E5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张海龙";
+				TargetAttributes = {
+					AC1AD3C61DD4912A00E3E5BF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ESMZPNM7FK;
+						ProvisioningStyle = Automatic;
+					};
+					AC1AD3DF1DD4912A00E3E5BF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC1AD3C61DD4912A00E3E5BF;
+					};
+					AC1AD3EA1DD4912A00E3E5BF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC1AD3C61DD4912A00E3E5BF;
+					};
+				};
+			};
+			buildConfigurationList = AC1AD3C21DD4912A00E3E5BF /* Build configuration list for PBXProject "CardShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1AD3BE1DD4912A00E3E5BF;
+			productRefGroup = AC1AD3C81DD4912A00E3E5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1AD3C61DD4912A00E3E5BF /* CardShow */,
+				AC1AD3DF1DD4912A00E3E5BF /* CardShowTests */,
+				AC1AD3EA1DD4912A00E3E5BF /* CardShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1AD3C51DD4912A00E3E5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1AD3DA1DD4912A00E3E5BF /* LaunchScreen.storyboard in Resources */,
+				AC1AD3D71DD4912A00E3E5BF /* Assets.xcassets in Resources */,
+				AC1AD3D51DD4912A00E3E5BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1AD3DE1DD4912A00E3E5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1AD3E91DD4912A00E3E5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1AD3C31DD4912A00E3E5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1AD4091DD493B800E3E5BF /* EFTipCardAlertCollectionViewCell.m in Sources */,
+				AC1AD3D21DD4912A00E3E5BF /* ViewController.m in Sources */,
+				AC1AD40C1DD493D500E3E5BF /* EFTipCardAlertCollectionViewModel.m in Sources */,
+				AC1AD4031DD491D800E3E5BF /* EFTipCardAlert.m in Sources */,
+				AC6174871DD5BCE600B51242 /* EFBtnTipCardAlert.m in Sources */,
+				AC6174811DD49AD200B51242 /* EFCollectionLayout.m in Sources */,
+				AC1AD3CF1DD4912A00E3E5BF /* AppDelegate.m in Sources */,
+				AC1AD3CC1DD4912A00E3E5BF /* main.m in Sources */,
+				AC61748A1DD5C1A600B51242 /* EFPageCardAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1AD3DC1DD4912A00E3E5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1AD3E51DD4912A00E3E5BF /* CardShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1AD3E71DD4912A00E3E5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1AD3F01DD4912A00E3E5BF /* CardShowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC1AD3E21DD4912A00E3E5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1AD3C61DD4912A00E3E5BF /* CardShow */;
+			targetProxy = AC1AD3E11DD4912A00E3E5BF /* PBXContainerItemProxy */;
+		};
+		AC1AD3ED1DD4912A00E3E5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1AD3C61DD4912A00E3E5BF /* CardShow */;
+			targetProxy = AC1AD3EC1DD4912A00E3E5BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC1AD3D31DD4912A00E3E5BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1AD3D41DD4912A00E3E5BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC1AD3D81DD4912A00E3E5BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1AD3D91DD4912A00E3E5BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1AD3F21DD4912A00E3E5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1AD3F31DD4912A00E3E5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1AD3F51DD4912A00E3E5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESMZPNM7FK;
+				INFOPLIST_FILE = CardShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC1AD3F61DD4912A00E3E5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESMZPNM7FK;
+				INFOPLIST_FILE = CardShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC1AD3F81DD4912A00E3E5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardShow.app/CardShow";
+			};
+			name = Debug;
+		};
+		AC1AD3F91DD4912A00E3E5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardShow.app/CardShow";
+			};
+			name = Release;
+		};
+		AC1AD3FB1DD4912A00E3E5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardShow;
+			};
+			name = Debug;
+		};
+		AC1AD3FC1DD4912A00E3E5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardShow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1AD3C21DD4912A00E3E5BF /* Build configuration list for PBXProject "CardShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1AD3F21DD4912A00E3E5BF /* Debug */,
+				AC1AD3F31DD4912A00E3E5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1AD3F41DD4912A00E3E5BF /* Build configuration list for PBXNativeTarget "CardShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1AD3F51DD4912A00E3E5BF /* Debug */,
+				AC1AD3F61DD4912A00E3E5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1AD3F71DD4912A00E3E5BF /* Build configuration list for PBXNativeTarget "CardShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1AD3F81DD4912A00E3E5BF /* Debug */,
+				AC1AD3F91DD4912A00E3E5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1AD3FA1DD4912A00E3E5BF /* Build configuration list for PBXNativeTarget "CardShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1AD3FB1DD4912A00E3E5BF /* Debug */,
+				AC1AD3FC1DD4912A00E3E5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1AD3BF1DD4912A00E3E5BF /* Project object */;
+}
