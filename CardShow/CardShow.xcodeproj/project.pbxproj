@@ -245,7 +245,7 @@
 				TargetAttributes = {
 					AC1AD3C61DD4912A00E3E5BF = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = ESMZPNM7FK;
+						DevelopmentTeam = 9LQLNL456W;
 						ProvisioningStyle = Automatic;
 					};
 					AC1AD3DF1DD4912A00E3E5BF = {
@@ -469,7 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ESMZPNM7FK;
+				DEVELOPMENT_TEAM = 9LQLNL456W;
 				INFOPLIST_FILE = CardShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShow;
@@ -481,7 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ESMZPNM7FK;
+				DEVELOPMENT_TEAM = 9LQLNL456W;
 				INFOPLIST_FILE = CardShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShow;
