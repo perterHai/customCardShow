@@ -245,7 +245,7 @@
 				TargetAttributes = {
 					AC1AD3C61DD4912A00E3E5BF = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 9LQLNL456W;
+						DevelopmentTeam = Y9EA8DHFC5;
 						ProvisioningStyle = Automatic;
 					};
 					AC1AD3DF1DD4912A00E3E5BF = {
@@ -469,10 +469,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9LQLNL456W;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9EA8DHFC5;
 				INFOPLIST_FILE = CardShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangyue.zyiReader.JenkinsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -481,10 +482,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9LQLNL456W;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9EA8DHFC5;
 				INFOPLIST_FILE = CardShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.extantfuture.CardShow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangyue.zyiReader.JenkinsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
