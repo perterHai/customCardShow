@@ -1,0 +1,182 @@
+BCSymbolMap Version: 2.0
+-[EFTipCardAlertCollectionViewCell initWithFrame:]
+-[EFTipCardAlertCollectionViewCell setUpSubviews]
+-[EFTipCardAlertCollectionViewCell setModel:]
+-[EFTipCardAlertCollectionViewCell layoutSubviews]
+-[EFTipCardAlertCollectionViewCell backImageView]
+-[EFTipCardAlertCollectionViewCell tipLabel]
+-[EFTipCardAlertCollectionViewCell model]
+-[EFTipCardAlertCollectionViewCell setBackImageView:]
+-[EFTipCardAlertCollectionViewCell setTipLabel:]
+-[EFTipCardAlertCollectionViewCell .cxx_destruct]
+_OBJC_CLASS_$_EFTipCardAlertCollectionViewCell
+_OBJC_IVAR_$_EFTipCardAlertCollectionViewCell._model
+_OBJC_IVAR_$_EFTipCardAlertCollectionViewCell._backImageView
+_OBJC_IVAR_$_EFTipCardAlertCollectionViewCell._tipLabel
+_OBJC_METACLASS_$_EFTipCardAlertCollectionViewCell
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFTipCardAlertCollectionViewCell.m
+/Users/hailong/.jenkins/workspace/TestProject/CardShow
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFTipCardAlertCollectionViewCell.h
+-[ViewController viewDidLoad]
+-[ViewController setUpSubViews]
+-[ViewController alertCard:]
+___28-[ViewController alertCard:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ViewController didReceiveMemoryWarning]
+-[ViewController tipCardAlert]
+-[ViewController setTipCardAlert:]
+-[ViewController .cxx_destruct]
+_OBJC_CLASS_$_ViewController
+_OBJC_CLASS_$_EFTipCardAlertCollectionViewModel
+_OBJC_CLASS_$_EFBtnTipCardAlert
+___block_descriptor_tmp
+_OBJC_CLASS_$_EFPageCardAlert
+_OBJC_IVAR_$_ViewController._tipCardAlert
+_OBJC_METACLASS_$_ViewController
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/ViewController.m
+__destroy_helper_block_
+__copy_helper_block_
+__28-[ViewController alertCard:]_block_invoke
+-[EFTipCardAlertCollectionViewModel imageName]
+-[EFTipCardAlertCollectionViewModel setImageName:]
+-[EFTipCardAlertCollectionViewModel tipStr]
+-[EFTipCardAlertCollectionViewModel setTipStr:]
+-[EFTipCardAlertCollectionViewModel .cxx_destruct]
+_OBJC_IVAR_$_EFTipCardAlertCollectionViewModel._imageName
+_OBJC_IVAR_$_EFTipCardAlertCollectionViewModel._tipStr
+_OBJC_METACLASS_$_EFTipCardAlertCollectionViewModel
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFTipCardAlertCollectionViewModel.m
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFTipCardAlertCollectionViewModel.h
++[EFTipCardAlert initCardAlertWithClass:]
+-[EFTipCardAlert setUpSubViews]
+-[EFTipCardAlert showAnimation]
+-[EFTipCardAlert scrollToAnotherIndex:]
+-[EFTipCardAlert dismissCardAlert]
+-[EFTipCardAlert showScrollToIndex:]
+-[EFTipCardAlert numberOfItemsInSection:]
+-[EFTipCardAlert collectionView:numberOfItemsInSection:]
+-[EFTipCardAlert collectionView:cellForItemAtIndexPath:]
+-[EFTipCardAlert setScrollEnable:]
+-[EFTipCardAlert setContentArray:]
+-[EFTipCardAlert setPageColor:]
+-[EFTipCardAlert scrollLayout]
+-[EFTipCardAlert tipCardCollection]
+-[EFTipCardAlert scrollEnable]
+-[EFTipCardAlert contentArray]
+-[EFTipCardAlert selectIndex]
+-[EFTipCardAlert setSelectIndex:]
+-[EFTipCardAlert pageColor]
+-[EFTipCardAlert setTipCardCollection:]
+-[EFTipCardAlert setScrollLayout:]
+-[EFTipCardAlert .cxx_destruct]
+_OBJC_IVAR_$_EFTipCardAlert._scrollEnable
+_OBJC_IVAR_$_EFTipCardAlert._contentArray
+_OBJC_IVAR_$_EFTipCardAlert._pageColor
+_OBJC_IVAR_$_EFTipCardAlert._scrollLayout
+_OBJC_CLASS_$_EFCollectionLayout
+_OBJC_IVAR_$_EFTipCardAlert._tipCardCollection
+_OBJC_IVAR_$_EFTipCardAlert._selectIndex
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_PROTOCOL_$_EFCollectionLayoutDelegate
+l_OBJC_LABEL_PROTOCOL_$_EFCollectionLayoutDelegate
+_OBJC_METACLASS_$_EFTipCardAlert
+_OBJC_CLASS_$_EFTipCardAlert
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFTipCardAlert.m
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFTipCardAlert.h
++[EFBtnTipCardAlert showTipCardAlertWithLatsBtn:nextBtnArray:contentArray:selectIndex:]
+-[EFBtnTipCardAlert setUpSubViews]
+-[EFBtnTipCardAlert layoutSubviews]
+-[EFBtnTipCardAlert nextScorll:]
+-[EFBtnTipCardAlert lastScroll:]
+-[EFBtnTipCardAlert scrollToAnotherIndex:]
+-[EFBtnTipCardAlert showScrollToIndex:]
+-[EFBtnTipCardAlert setLastArray:]
+-[EFBtnTipCardAlert setNextArray:]
+-[EFBtnTipCardAlert setLastBtnImage:]
+-[EFBtnTipCardAlert setNextBtnImage:]
+-[EFBtnTipCardAlert nextBtn]
+-[EFBtnTipCardAlert lastBtn]
+-[EFBtnTipCardAlert showIndex]
+-[EFBtnTipCardAlert setShowIndex:]
+-[EFBtnTipCardAlert lastBtnImage]
+-[EFBtnTipCardAlert nextBtnImage]
+-[EFBtnTipCardAlert setNextBtn:]
+-[EFBtnTipCardAlert setLastBtn:]
+-[EFBtnTipCardAlert lastArray]
+-[EFBtnTipCardAlert nextArray]
+-[EFBtnTipCardAlert .cxx_destruct]
+_OBJC_IVAR_$_EFBtnTipCardAlert._lastArray
+_OBJC_IVAR_$_EFBtnTipCardAlert._nextArray
+_OBJC_IVAR_$_EFBtnTipCardAlert._lastBtnImage
+_OBJC_IVAR_$_EFBtnTipCardAlert._nextBtnImage
+_OBJC_IVAR_$_EFBtnTipCardAlert._nextBtn
+_OBJC_IVAR_$_EFBtnTipCardAlert._lastBtn
+_OBJC_IVAR_$_EFBtnTipCardAlert._showIndex
+_OBJC_METACLASS_$_EFBtnTipCardAlert
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFBtnTipCardAlert.m
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFBtnTipCardAlert.h
+-[EFCollectionLayout targetContentOffsetForProposedContentOffset:withScrollingVelocity:]
+-[EFCollectionLayout width]
+-[EFCollectionLayout setWidth:]
+-[EFCollectionLayout delegate]
+-[EFCollectionLayout setDelegate:]
+-[EFCollectionLayout oldPoint]
+-[EFCollectionLayout setOldPoint:]
+-[EFCollectionLayout .cxx_destruct]
+_OBJC_IVAR_$_EFCollectionLayout._width
+_OBJC_IVAR_$_EFCollectionLayout._delegate
+_OBJC_IVAR_$_EFCollectionLayout._oldPoint
+_OBJC_METACLASS_$_EFCollectionLayout
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFCollectionLayout.m
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFCollectionLayout.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+_OBJC_CLASS_$_AppDelegate
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/AppDelegate.m
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/AppDelegate.h
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/main.m
+main
++[EFPageCardAlert showTipCardAlertWithPage:]
+-[EFPageCardAlert setUpSubViews]
+-[EFPageCardAlert layoutSubviews]
+-[EFPageCardAlert showScrollToIndex:]
+-[EFPageCardAlert close:]
+-[EFPageCardAlert setShowPageControl:]
+-[EFPageCardAlert setSelectPageControlColor:]
+-[EFPageCardAlert setNormalPageControlColor:]
+-[EFPageCardAlert pageControl]
+-[EFPageCardAlert closeBtn]
+-[EFPageCardAlert showPageControl]
+-[EFPageCardAlert selectPageControlColor]
+-[EFPageCardAlert normalPageControlColor]
+-[EFPageCardAlert setPageControl:]
+-[EFPageCardAlert setCloseBtn:]
+-[EFPageCardAlert .cxx_destruct]
+_OBJC_IVAR_$_EFPageCardAlert._showPageControl
+_OBJC_IVAR_$_EFPageCardAlert._selectPageControlColor
+_OBJC_IVAR_$_EFPageCardAlert._normalPageControlColor
+_OBJC_IVAR_$_EFPageCardAlert._pageControl
+_OBJC_IVAR_$_EFPageCardAlert._closeBtn
+_OBJC_METACLASS_$_EFPageCardAlert
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFPageCardAlert.m
+/Users/hailong/.jenkins/workspace/TestProject/CardShow/CardShow/CardAlert/EFPageCardAlert.h

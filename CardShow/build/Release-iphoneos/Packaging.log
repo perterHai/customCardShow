@@ -1,0 +1,119 @@
+2018-09-11 07:08:45 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb7d6c0d350; archive(resolved)='<IDEArchive: 0x7fb7d6b07870>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb7d6c0d350; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb7d69f9200; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d6c1bc40; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d6b4ff60; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d4578bd0; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d69edb80; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d6b4f790; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d47ce8a0; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d4769a10; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='<IDEProvisioningBasicTeam: 0x7fb7d69f0210; teamID='Y9EA8DHFC5', teamName='IReader Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7fb7d475c1a0; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb7d400b7a0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb7d6b08450; archive = '<IDEArchive: 0x7fb7d6b07870>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb7d6c0d350>
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-09-11 07:08:45 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/hailong/.jenkins/workspace/TestProject/CardShow/build/Release-iphoneos/CardShow.xcarchive/Products/Applications/CardShow.app' '/var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/Root/Payload/CardShow.app'
+2018-09-11 07:08:45 +0000  >>> Copying /Users/hailong/.jenkins/workspace/TestProject/CardShow/build/Release-iphoneos/CardShow.xcarchive/Products/Applications/CardShow.app 
+2018-09-11 07:08:45 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-09-11 07:08:45 +0000  4803 bytes for ./_CodeSignature/CodeResources
+2018-09-11 07:08:45 +0000  copying file ./CardShow ... 
+2018-09-11 07:08:45 +0000  700304 bytes for ./CardShow
+2018-09-11 07:08:45 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-09-11 07:08:45 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-09-11 07:08:45 +0000  1791 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-09-11 07:08:45 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-09-11 07:08:45 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-09-11 07:08:45 +0000  1791 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-09-11 07:08:45 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-09-11 07:08:45 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-09-11 07:08:45 +0000  copying file ./embedded.mobileprovision ... 
+2018-09-11 07:08:45 +0000  56069 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2018-09-11 07:08:45 +0000  1127 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2018-09-11 07:08:45 +0000  8 bytes for ./PkgInfo
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000 [MT] /usr/bin/ditto exited with 02018-09-11 07:08:45 +0000  
+
+2018-09-11 07:08:45 +0000  2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-09-11 07:08:45 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-09-11 07:08:45 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-09-11 07:08:45 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-09-11 07:08:45 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-09-11 07:08:45 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-09-11 07:08:45 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/Root/Payload/CardShow.app'
+2018-09-11 07:08:45 +0000  2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000 [MT] /usr/bin/xattr exited with 0
+2018-09-11 07:08:45 +0000  
+
+2018-09-11 07:08:45 +0000  2018-09-11 07:08:45 +0000  
+
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000  2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCodesignStep
+
+2018-09-11 07:08:45 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb7d69f2fd0 'com.zhangyue.zyiReader.JenkinsTest' '<DVTFilePath:0x7fb7d6b080a0:'/Users/hailong/.jenkins/workspace/TestProject/CardShow/build/Release-iphoneos/CardShow.xcarchive/Products/Applications/CardShow.app'>'>: {
+    "application-identifier" = "Y9EA8DHFC5.com.zhangyue.zyiReader.JenkinsTest";
+    "com.apple.developer.team-identifier" = Y9EA8DHFC5;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "Y9EA8DHFC5.com.zhangyue.zyiReader.JenkinsTest"
+    );
+}
+2018-09-11 07:08:45 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb7d69f2fd0 'com.zhangyue.zyiReader.JenkinsTest' '<DVTFilePath:0x7fb7d6b080a0:'/Users/hailong/.jenkins/workspace/TestProject/CardShow/build/Release-iphoneos/CardShow.xcarchive/Products/Applications/CardShow.app'>'> to: /var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/entitlementshTfUp7
+2018-09-11 07:08:45 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7A2F9F5E7AC9E98DD00A4443C2FB55FB854AC616' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/entitlementshTfUp7' '/var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/Root/Payload/CardShow.app'
+2018-09-11 07:08:45 +0000  /var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/Root/Payload/CardShow.app: signed app bundle with Mach-O universal (armv7 arm64) [com.zhangyue.zyiReader.JenkinsTest]
+2018-09-11 07:08:45 +0000  2018-09-11 07:08:45 +0000  
+
+2018-09-11 07:08:45 +0000 [MT] /usr/bin/codesign exited with 0
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-09-11 07:08:45 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-09-11 07:08:45 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/Root' '/var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/Packages/CardShow.ipa'
+2018-09-11 07:08:45 +0000  >>> Copying /var/folders/tg/nsyv3vbj419frsh_60ct4ck00000gn/T/XcodeDistPipeline.pPy/Root 
+2018-09-11 07:08:45 +0000  copying file ./Payload/CardShow.app/_CodeSignature/CodeResources ... 
+2018-09-11 07:08:45 +0000  4803 bytes for ./Payload/CardShow.app/_CodeSignature/CodeResources
+2018-09-11 07:08:45 +0000  copying file ./Payload/CardShow.app/CardShow ... 
+2018-09-11 07:08:45 +0000  205664 bytes for ./Payload/CardShow.app/CardShow
+2018-09-11 07:08:45 +0000  copying file ./Payload/CardShow.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-09-11 07:08:45 +0000  916 bytes for ./Payload/CardShow.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/CardShow.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-09-11 07:08:45 +0000  1791 bytes for ./Payload/CardShow.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/CardShow.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-09-11 07:08:45 +0000  258 bytes for ./Payload/CardShow.app/Base.lproj/Main.storyboardc/Info.plist
+2018-09-11 07:08:45 +0000  copying file ./Payload/CardShow.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-09-11 07:08:45 +0000  1791 bytes for ./Payload/CardShow.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/CardShow.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-09-11 07:08:45 +0000  832 bytes for ./Payload/CardShow.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/CardShow.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-09-11 07:08:45 +0000  258 bytes for ./Payload/CardShow.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/CardShow.app/embedded.mobileprovision ... 
+2018-09-11 07:08:45 +0000  56069 bytes for ./Payload/CardShow.app/embedded.mobileprovision
+copying file ./Payload/CardShow.app/Info.plist ... 
+2018-09-11 07:08:45 +0000  1127 bytes for ./Payload/CardShow.app/Info.plist
+2018-09-11 07:08:45 +0000  copying file ./Payload/CardShow.app/PkgInfo ... 
+2018-09-11 07:08:45 +0000  8 bytes for ./Payload/CardShow.app/PkgInfo
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000 [MT] /usr/bin/ditto exited with 02018-09-11 07:08:45 +0000  
+2018-09-11 07:08:45 +0000  
+
+2018-09-11 07:08:45 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
